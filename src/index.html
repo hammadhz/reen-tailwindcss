@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./watch/style.css" />
+    <title>Reen</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="bg-primary border-b-[1px] border-b-secondary py-[15px]">
+      <div class="container lg:flex justify-between items-center md:block text-center">
+        <div class="text-tertiary text-[12px] font-sans md:mb-[10px] sm:mb-[10px]">
+          <a class="mr-[18px]" href="">
+            <i class="fa-regular fa-envelope mr-[10px]"></i> info@reen.com
+          </a>
+          <a href="">
+            <i class="fa-solid fa-mobile-screen mr-[10px]"></i> +00(123) 456 78
+            90
+          </a>
+        </div>
+        <div class="text-tertiary text-[12px]">
+          <a href=""
+            ><i class="fa-brands fa-facebook-f mr-[17px]"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-google-plus-g mr-[17px]"></i>
+          </a>
+          <a href=""
+            ><i class="fa-brands fa-twitter mr-[17px]"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-pinterest-p mr-[17px]"></i
+          ></a>
+          <a href=""
+            ><i class="fa-brands fa-behance mr-[17px]"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+ 
+     <!-- Navigation -->
+       <nav class="text-white my-[36px]">
+         <div class="container">
+           <div class="flex justify-between items-center">
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="40" viewBox="0 0 161 40">
+                <image id="logo" width="161" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAAAoCAYAAACW7pqmAAAET0lEQVR4nO2dW4hWVRTHf980STJdKNHIqB6iJk1TUGEUlZJ6qJeGiMh6MMEiQiEvpIho5Q0x6GaZdifo9tCVnjIs8kWHIHGIIrwb4ouaRN7QYsOeaXKdb2bv71v7MrV/cF7+6+Ocfdasb397r7XOmVrnE6v/Qp9TwD6gG9gGfAocaOAqTwMrhBqW74DbK67wJPC8UMOyExhfcYVHgLeFWs07wOxKixufAfc6fPJzoFOoDrQEcuElwC3A/cALwH7gK2Ci+GQhNCZgH87Zy6GCsIp7gB3AyzZIC/F4DbgxV3/HDEJDDZgLfA1cIayFUFwKfAQMydHDsYOwh6nAl7k65T/KBGBtjreWKggN04CVQi2EZAFwd24eThmEhoXAKKEWQvIuMDInD6cOwouApUIthGQ48F4Gf/techjIA2WTEp0ZwJJcBtNid6waRxtwMzAPOCiuVB+zObmrrtWNnYr3UZWo9mF/xTkbPaoS1Vo8C0wJeH5nNGfCP4FfgQ3AGFspcaUj3C0W6mCWQh8AV1ab4xHq5/gEMAtwLQneJJRCDK4H3kjt6ZBrwj3AD0KtZlilWojBfcDjKT0demPyu1CqaatUC7EwjRljU3k7ZBC22LWhC8cDjqMwMKaW/yEwNIWvWoWix0PA1Y5nOywUP9qBH5VGPh/YKlR3RiqOZTnwhVDDMBp4EXgs0vV6CRGEJrUwE9gsLPXZVdfihvkmj1Maf7M5y4sVx3KVUMLyKLAF+DjmRVtts6YGQ+0scKftJfTh25g3/T/CrMm/sZsPV14HuoC9sdzUmqBb+EJMB/Z2oRa0mANMAq5zPN/lwPvAdOCssAYgh7KdWYecF2pBi2N2fe7j446YHU6pg9BUWDYKtaCNqV4943nOpxTKqU6kDMLT9tmH08JSCMFqz1JqzXbbjBAWZVIF4VnbPdMlLIVQnLM/y8c8zm9SbJOFqkyKIDwC3BEx/1X4h4N2o5IVIZPVF3IGeBNYBhwV1ubYrejcbqH4Yb5kDyqN5WehNM8n9um7pPXivsQKQtNNcxvwi7Do8EdGucZTgyDvucA+43OrsCTAJwi3VrxFod2xF7Bms/GLhKWQgpN2tu7K4RlwnyB8yb4Soi/X2JYtlxsxHdevxMzEF/ql286Ir/b3oRg0uzExjQebhFrNEJsmKOTDRvueoEEdhIZ1dh3kwkxbQirkg9nQHUo5Go0g9JkNDc8JpZCSow2U9VTRyhOu9yh2T3d81ZgP4+wOXONodmd7g+JYtPoSB+L7gLXi4xX39a9DKwh/A94San3WRc5RFgZmpWdZTw3Niskaj9mwPUUHb6FfGinrqaAZhAc8Z0PzBtbLhFpISZKynnbt2Gc2NN0Zi4VaSE1PWS8a2kHoOxuat3JdK9RCakwS+6dYYwjRReMzG5pKyyqhFlLTU9aL0usZIgh9Z8NZtrmhkBe77IwYnFD9hD6zYa0ksLPF1JXNv4YIB/A3oNPOZIrsyi0AAAAASUVORK5CYII="/>
+              </svg>
+              
+             </div>
+             <div class="text-tertiary text-[13px] font-sans font-bold invisible lg:visible">
+               <a href="" class="mr-[44px] uppercase">Home</a>
+               <a href="" class="mr-[44px] uppercase ">Portfolio</a>
+               <a href="" class="mr-[44px] uppercase ">Blog</a>
+               <a href="" class="mr-[44px] uppercase ">Pages</a>
+               <a href="" class="mr-[44px] uppercase ">Features</a>
+               <a href="" class="mr-[44px] uppercase ">Mega Menu</a>
+               <a href="" class="uppercase ">Contact</a>
+             </div>
+             <div class="invisible lg:visible">
+              <i class="fa-solid fa-magnifying-glass text-tertiary"></i>
+          </div>
+          <div class="w-[50px] h-[40px] bg-seventh rounded-md flex justify-center items-center lg:hidden">
+            <div class="w-[10px] h-[1px] bg-sixteen mb-[1px]"></div>
+            <div class="w-[10px] h-[1px] bg-sixteen mb-[1px]"></div>
+            <div class="w-[10px] h-[1px] bg-sixteen mb-[1px]"></div>
+          </div>
+        </div>
+        <div class="text-center  lg:hidden">
+          <a href="#" class="md:block uppercase font-[15px] font-sans mb-[10px] text-tertiary font-bold sm:block font-[10px]">Home</a>
+          <a href="#" class="md:block uppercase font-[15px] font-sans mb-[10px] text-tertiary font-bold sm:block font-[10px]">Portfolio</a>
+          <a href="#" class="md:block uppercase font-[15px] font-sans mb-[10px] text-tertiary font-bold sm:block font-[10px]">Blog</a>
+          <a href="#" class="md:block uppercase font-[15px] font-sans mb-[10px] text-tertiary font-bold sm:block font-[10px]">Pages</a>
+          <a href="#" class="md:block uppercase font-[15px] font-sans mb-[10px] text-tertiary font-bold sm:block font-[10px]">Mega Menu</a>
+          <a href="#" class="md:block uppercase font-[15px] font-sans text-tertiary font-bold sm:block font-[10px]">Contact</a>
+        </div>
+          </div>
+           </div>
+         </div>
+       </nav>
+     <!-- Navigation -->
+    
+     <!-- Banner -->
+     <section class="bg-banner w-full bg-cover  flex justify-center items-center text-center lg:h-[880px] md:h-[600px] sm:h-[600px]">
+       <div>
+         <div>
+           <h1 class="text-quartary font-Lato font-[900] uppercase lg:text-[78px] md:text-[40px] sm:text-[35px]">Made For Designers</h1>
+           <p class="text-quinary font-sans lg:max-w-[935px] lg:text-[24px] lg:leading-8 lg:mb-[63px] md:max-w-[670px] md:text-[20px]  md:leading-5 md:mb-[50px] sm:text-[19px] sm:mb-[40px] sm:max-w-[650px]">Create your online portfolio in minutes with the professionally and
+            lovingly designed REEN website template. Customize your site with
+            versatile and easy to use features.</p>
+            <button class="text-quartary font-sans font-bold bg-senary min-h-[63px] uppercase border-b-[2px] border-b-septenary rounded cursor-pointer w-[295px] lg:text-[18px] md:text-[15px] sm:text-[13px]">Get Started Now</button>
+         </div>
+       </div>
+     </section>
+     <!-- Banner -->
+
+     <!-- About -->
+     <section class="bg-quartary my-[132px]">
+       <div class="container">
+         <div class="flex flex-col justify-center items-center text-center">
+           <h1 class="text-tertiary font-Lato font-bold mb-[43px] lg: text-[44px] md:text-[35px] sm:text-[30px]">Beautiful. Clean. Responsive</h1>
+           <p class="text-center text-octal font-sans mb-[83px] lg:text-[22px] max-w-[780px] md:text-[18px] sm:text-[16px]">REEN is a high-quality solution for those who want a beautiful
+            website in no time.It's fully responsive and will adapt itself to
+            any mobile device.iPad, iPhone, Android, it doesn't matter. Your
+            content will always looks its absolute best.</p>
+         </div>
+         <div class="lg:flex justify-around md:block">
+            <div class="lg:flex md:block mb-[20px]">
+              <div class="lg:mr-[33px] md:mb-[10px]">
+                <svg class="md:m-auto sm:m-auto" xmlns="http://www.w3.org/2000/svg" 
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="53" viewBox="0 0 61 53">
+                <image id="icon-heart-empty-1" width="61" height="53" 
+                xlink:href="data:img/png;base64,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"/>
+              </svg>
+              </div>
+              <div>
+                <h4 class="text-tertiary font-Lato text-[26px] font-bold mb-[30px] md:text-center sm:text-center">Passion</h4>
+                <p class="text-octal font-sans text-[16px] max-w-[264px] mb-[30px] md:m-auto sm:m-auto">Magnis modipsae que lib voloratati andigen daepeditem quiate re
+                  porem aut labor. Laceaque quiae sitiorem rest non restibusaes
+                  maio es dem tumquam core posae volor remped modis volor.</p>
+              </div>
+            </div>
+            <div class="lg:flex md:block mb-[20px]">
+              <div class="lg:mr-[33px] md:mb-[10px]">
+                <svg class="md:m-auto sm:m-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="65" viewBox="0 0 46 65">
+                  <image id="icon-lamp" width="46" height="65" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAABBCAYAAACuG5a4AAAFDklEQVRoge2aa4xdUxTHfzNab1pivOoR0qQktFqK+IAgSoZqm2gkmnimFT6ReEW8SlojERWpR9WjRCMqgqBaRQRROh6tR1UMpfUu0jJJa5iRVevOOXPXWXvfc+69pxH9JffL2vvs/b/n7LP2WmufFpbMpSDbA8cBY4BRwEHAvsDuwJDUkH3ABuBn4DvgK+BD4H1gKfBnkenzChexk4ApwInADqZHPrqBV4DHgOfy/IlWY8lmZ+BavWOPA6c3QLSwEzAeWACsBa6oddxahLcDnwEzgN1Ma+NoA+4AVgEn1yN8Gx3oeWCYaW0e+wNLgJmbl7KDJ3xb4El9dFuKa4BH9QYaBhnLvx3n6UuYl7+AdepBevVamWMPXQrejfIQJ9ADXKTeqZ8s4dOBc4w1mzXAM8AbwAfq6v7O7AmDgYOB0cDxwFnqPmNcAHwO3JbuV+0O23VNxxAX1qFrsS/S10PW7zhdEic4fSrI0zsJeL1iSD862TTmmEsG8gtwNnAK8HIdotFrX9L9YDLwq+mRIDrn6j5ihN8QeXRdwNHAU6alfhbo2F2BkYYDl1cL3we41HRN+Env8pempXF06Rw/BEa8Gtg1LXxa+jFkIC/IamtuOKt1Lg9ZzudVhMtLcqHTEX1ZXzTW5iHr/tnA6BdXhI/W3cqjw7E3k5mBsUeKWxXhp5qmhC+AN421+byj8ZHHuMod91jo2MvghcAcx4jwQ4w5YamxlEdo7sNb1RV6fOrYyyA09+Y13mbMCWW4QI/vHbswNBatbTSW8giGE60ainrs59jLYEhgjo0i/FtjThhuLOUxKjDTj60aQ3tMcOxlcFRgjo9F+FvGnDBJE4CykQTn3MCcy0T4a8ac0BYZoFlM02zJY5FkQJJjfhOIxaXecSjwh2lpDntqiWKoM/rXFT8uOeLDpjlBPMvdxto8bg+IRrX2Vvz47IjPPl/Tq2ZzZiXeduhWrf2JhOxS92f37WdOJPytl72AByNjzNLyx4Ccc7omwx6yITwSqi7VQYuOHQo/1qbj9LRwybKvNN0HIiWCq4y1fiQJPi0yylRdKkY4+q9jdZVbgbHGWpwjIxmPcE91blAtvE+T1TXm0oRBWs/e0bTkR8rXT2it0qMzq4aZFR3K4j9DTxE8Rqjbqpc7I/HQb1qA2lSLcGGFbvc9piXhMi2hFaW9krE79OmunZkTeMLR+uBUYx3IA3qqkJddgPsi19wSynlDwtGXdbaxJohfv9lY49wUifUXxcat5fBqO+DtQDVAltNhWgquBXk/PvEK9hJr63jrTEuKWgrtm3TL9zKlwdW16wgdAdHCJTHR5DghWBHxIhMDTyTNWC3oe8zXg4IoeY42ZkQy7+uNxXKdsSSsT5eRGym8OyJuQiT4l7bxxppwo5azayLvYdI8DeSzaIm4TzmA8gI0Ofi911gD5BUuL+hdxpowJRA9hlLAWXnP9PMKFx4KeJhh+lFCNVIaPtC5pieSgWVSRPh63VU9OnW7Tv+WO33RsaLur5oiwgltxQVYXOSiosI7jaU4y8oU/pGxFCdUTnYpKnxDJOStld7IwaxL1ll+rSyMVFRroXCRqR7hoZij6RRdKluc/6zwokvlAK2xNIJXtehaivAxRbZph4lFhG9d42WzVXjZ/O+Er9QvkutlpZ73lCZ8lbrEyQW/Z5FQVtI8KfyI+NzU8/14GknLxB8fCxwB7J0KwH7Xqut7wLvA0zmqXtkA/wCBl+sTvlVKzgAAAABJRU5ErkJggg=="/>
+                </svg>                
+              </div>
+              <div>
+                <h4 class="text-tertiary font-Lato text-[26px] font-bold mb-[30px] md:text-center sm:text-center">Creativity</h4>
+                <p class="text-octal font-sans text-[16px] max-w-[264px] mb-[30px] md:m-auto sm:m-auto">Magnis modipsae que lib voloratati andigen daepeditem quiate re
+                  porem aut labor. Laceaque quiae sitiorem rest non restibusaes
+                  maio es dem tumquam core posae volor remped modis volor.</p>
+              </div>
+            </div>
+            <div class="lg:flex md:block">
+              <div class="lg:mr-[33px] md:mb-[10px]">
+                <svg class="md:m-auto sm:m-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="53" viewBox="0 0 56 53">
+                  <image id="icon-star-empty-1" width="56" height="53" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA1CAYAAAAUGCjAAAAFA0lEQVRogcWafagnUxjHP7vWZjfdSy672l22vdcSrte4ocRN3vKPvPyhaFGISP7ZLeQq8vKPaEMiKUkoRC3aWC9ZpCUv6213uVLalnKLzVoXPc137G/nmXN+Z+bOzH5ran7POfM85zvfOc+c88xvFmsfpyMcD7wG7ADOAb7qIuxsZ2kPjwAHAUuAJ7oK2hXBc4Gxnt+nyNY6uiI44SzltsbRBcGiejnGulCxC4IxpWJtjaBtgiH1crSuYtsEUxRqVcU2CfZTL0erKrZJsIoyranYFsGQem8Dnzpriyq2RTCkyL3Anc4av2ZGaINgSL0PtRZ9uUsV2yAYUiK3/9ulik0T7Kdejs5UbJpgSIGivTMV5zhL9esPBY7QDiFFvRy5iscV7ObjLmA98DUwCfztrq4wwH7YCzgEGAGWA4fpsPOlCT5CiuQqvuha4NaecyP3A/At8J0OO98E/AhMu6t7kO/oZwGLReJwERjRYed7uyvT8DFwUqSnxd1QomIqdorwJh12/o3Of7KbaHf/Kj0SB9cMEsPdkTb6qJgCu/FH6ijiZ+A2U3BnA3OxDDa/ThCJGGaqYgzTc5QALoh0SoXdqC09j8wzCeRQn2uAy3qmxLIZTItevGMKDgFrgWNds8dfPc/7Zh3JE74CioltWEeeF+YmuLJxjedJZhB4AzjZdcvwO3Ae8D7wj2vtFvbuPhVYA+wbiPyFkQO25S/6KeBs4F3XNYM5elaPzp7GMo0lRO4j4EwjR2ElM6Vl0lvukgyLgHV6RPYURjSGRYH46yXUL7mhuFTbroTzirt0F0lzMupa2seoYofImTBnSaj/UbYWNZIXR0haUnqzY5KjijnkWjK8KmG2FxvKCKJseaFSfRks0HuBtWfTGFOsEDlbJFxURi5GEKX8K4CnXEuGAWXeNkmOKcaAa8lgAlwiQUoRI4hIXgk86loyDOjRGXctM8e4fIfIPSYBou/elP2grTSuBx5wLRnmaw40SXJcPue7lgyrgetSFhapG14jeQtwn2vJMC+yLaqDCfksg43hxsRlYOUd/arCXq0XG52lPkK+btcYklGnZLHaWTJ86Sz1EfL1kLP0QR2CRzlLhs+dpT5CvkKxg6hD8GhnyRC663UQ8hWKHURTCm7NF7cNYZt8psSOog7BY5wlnBSKWBhZkaT4LIsdRR2CZfWPz5xldwzpu8T3Ouw1sJ/r1d9nWewoqhI8EFjgrOE5MygytvNfCeyjfdwdKgWuiuzrynwu0BiSUZVgaA4Us948DX6zyJQtt4z8PVL05pIXeyOZtCrB0BYpny9WK7lJxScb/AGup8eQloFbtPyaW/CZOoZSNKHgpLYqV6v49KCSSVUs1L+hzMcK+Zws8VE2hiCq1kPL3kOz9Q1h2LV4/KqYg65lF+yvXk9a0VY105QxBFFVwTLnSxLITamCvVSHLZj/cL12x7BKhyljCKIKwcV97nwZ/gTuV7FoQuXH35SAhvU47yi5LoZBjaVxglXunFW5H1aJb2VvlasHW5U9l2vzWqVonDyWKgRTJve0ShxWfr9BH0D6wSri1+ob49OJ+7zkRFOFYL/0/Lz6rAhkv36w7Hm51HmpT9/kV0UVgqFl0hp9Rbq0oX/xblRF70TgddcaH4tDFYL7F37bn3pOA84HPnG9Z44NqrSfrlixsTRC8DnNsQ/0n+sz9DGmbdj3EotlZK2ybR9/XkgKCvwHmzP+WPXDv5kAAAAASUVORK5CYII="/>
+                </svg>                
+              </div>
+              <div>
+                <h4 class="text-tertiary font-Lato text-[26px] font-bold mb-[30px] md:text-center sm:text-center">Quality</h4>
+                <p class="text-octal font-sans text-[16px] max-w-[264px] md:m-auto sm:m-auto">Magnis modipsae que lib voloratati andigen daepeditem quiate re
+                  porem aut labor. Laceaque quiae sitiorem rest non restibusaes
+                  maio es dem tumquam core posae volor remped modis volor.</p>
+              </div>
+            </div>
+         </div>
+       </div>
+     </section>
+     <!-- About -->
+      
+     <!-- Cards -->
+       <section class="bg-nonary py-[134px]">
+         <div class="">
+           <div class="flex flex-col justify-center items-center text-center">
+             <h3 class="text-tertiary font-Lato font-bold mb-[45px] lg:text-[44px] md:text-[38px] sm:text-[35px]">Check out our latest works</h3>
+             <p class="text-octal font-sans mb-[83px] lg:text-[22px] md:text-[18px] sm:text-[16px]">Magnis modipsae que voloratati andigen daepeditem quiate re porem
+              aut labor.</p>
+           </div>
+           <div class="lg:flex justify-center gap-x-[30px] mb-[80px] sm:flex-wrap">
+             <div class="border-[1px] border-decenary rounded-sm sm:mb-[20px]">
+               <img src="./img/grand-hotel.jpg" class="max-h-[387px] w-[100%]" alt="" />
+               <div class="bg-quartary py-[35px] px-[0] text-center">
+                 <h6 class="text-tertiary font-Lato font-bold mb-[18px] lg:text-[20px] md:text-[18px]">Grand Motel gets an identity brushup</h6>
+                 <p class="text-octal font-sans text-[14px]">Identity</p>
+               </div>
+             </div>
+             <div class="border-[1px] border-decenary rounded-sm">
+               <img src="./img/brand.jpg" class="max-h-[387px] w-[100%]" alt="" />
+               <div class="bg-quartary py-[35px] px-[0] text-center">
+                 <h6 class="text-tertiary font-Lato font-bold mb-[18px] lg:text-[20px] md:text-[18px]">Fresh branding for a creative startup</h6>
+                 <p class="text-octal font-sans text-[14px]">Identity</p>
+               </div>
+             </div>
+           </div>
+           <div class="flex justify-center gap-x-[30px]">
+             <div>
+               <img src="./img/simpli.jpg" class="w-[100%]" alt="" />
+             </div>
+             <div>
+               <img src="./img/record.jpg" class="w-[100%]"  alt="">
+             </div>
+             <div>
+               <img src="./img/astor.jpg"  class="w-[100%]" alt="">
+             </div>
+             <div>
+               <img src="./img/signwall.jpg"  class="w-[100%]" alt="">
+             </div>
+           </div>
+         </div>
+       </section>
+     <!-- Cards -->
+
+     <!-- Get-in-touch -->
+     <section class="bg-quartary my-[133px]">
+       <div class="flex flex-col justify-center items-center text-center">
+         <h3 class="text-tertiary font-Lato font-bold lg:text-[44px] mb-[47px] md:text-[38px] sm:text-[30px]">Want to work with us?</h3>
+         <p class="text-octal font-sans lg:text-[22px] max-w-[740px] mb-[48px] md:text-[18px] sm:text-[16px]">Magnis modipsae que voloratati andigen daepeditem quiate re porem aut
+          labor. Laceaque quiae sitiorem rest non restibusaes maio es dem
+          tumquam.</p>
+         <button class="uppercase bg-senary text-quartary font-sans font-bold py-[18px] px-[30px] border-b-[2px] border-b-septenary rounded-[3px] cursor-pointer lg:text-[15px] md:text-[13px]">Get In Touch</button>
+       </div>
+     </section>
+     <!-- Get-in-touch -->
+      
+     <!-- Footer -->
+      <footer class="bg-undenary">
+        <div>
+          <div class="container py-[74px] grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4">
+            <div>
+              <div class="mb-[20px]">
+                <h6 class="text-quartary font-Lato text-[16px] font-bold uppercase mb-[27px]">Who We Are</h6>
+                <svg class="mb-[25px]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129" height="32" viewBox="0 0 129 32">
+                  <image id="logo" width="129" height="32" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAAAgCAYAAAA14BsbAAADpElEQVR4nO2bW4hOURTHfzO55jLmiVxCEvFgPIgHD+OBhBch8iTJ5UEZZSKXcZcSo9wlhUhKRIkHpElEjYgniXjRlOtoKNra2pOZs75zvv3ts88Zffavzst/nbP3uaxvr7XX3h/KD1+VUs1KqaNKqRlKqUqlFBbHEk/9xzEgcg+1Mef5oibSX41Fu7eUUhWW76v9eCJa6czWAtfEHpX4oS9QA6wEbgLPgdme2i53pgP1XfmMvpwgyljgOrA/wz7KiZ3AlK56nqw/UB1wSKiBKN2AC0CVsORAHr/SVcBCoQaijABOCjUH8hqqdVjoKdRAlAXAcqFmTF5OMNg8YKA4B4Hxeb4nHYumCdWefsBMYBnQo8hV84BzQk3mGzAn8YxkWhOthUnzPl4KpXR6AReBSUCbh/aKop3gbso2rgFngDtAb2H9i0v2+9PD/ZVK3v0VQo8EjcCKAjbv+AoHD4HjQu3MoCJOEujM8rxCqM+c4IlQJCE5LA09WxiZdSc+nWCoUCS5xLgyQtcNzgPds3ykbkJxo8oifn0Bfgg1mf7A68Qz4nkALIq1xuPa3wtgllDTo3OpHcD6DNr+Q1on6Gtq33uAYcLamUdCKU4FMNzx3lw/pmt/n4RiR6t5j0notYXbwK2Ec5zRTqCyaLgAN6QUAFYDp4qE5gozA5sAvBfWlCR17BOdC5wOX7wgekq6u5AhwkDgrHEIr+TlBA3AB6EG2tkG3Ld4Gzr0rhNqSvJwAh0GDgg10BFdFFtsmVfsSpG3FCRrJ7gKzDcPGUjmjeXikc7jBgg1Bb6miFFagC2mipgm8fwObBCqHe8cr6sTih0tjtd15BJwIu+VxCyc4DMwCvgqLKXzw9TQ8yTv/qKsAaYC44QlI2zCwWZgboej2MaHqq5YEy8j2kyRq9TCmjM2TtAEXOlw1JtfexIbgeoEeyCZZ8DaxDNydoIonyyGTO0Am4QaKIUjJrHOHNecoNHErqSNkboSdhh4JSz26PurTXF9k8PMJE1/jx03ssSxFHgKDImx26KX8MfEnevqBO2jQYOw/KW7qYS5LOK008dsVnGl2qGmn6a/iZZL6rZ8MPWDOymn89oBmoVqSNNwo0VuoHcZTxZqoBTumf8lZEYaJ7DJDTT7hBIole0mtGVC2oqhzWgw1UwvA+78MmHh47/oBLajwd6sd8f8B7w1u7q942PtwGY0GJ3Xztky5zJwzPcj+nAC29GgociUMmCHLiLpf337AfgNBXRXpM/aDKMAAAAASUVORK5CYII="/>
+                </svg>
+                <p class="text-quinary font-sans text-[14px] max-w-[257px] mb-[26px]">Magnis modipsae voloratati andigen daepeditem quiate re porem
+                  que aut labor. Laceaque eictemperum quiae sitiorem rest non
+                  restibusaes maio es dem tumquam.</p>
+                  <a href="" class="text-quinary font-sans text-[15px] font-bold">More about us <i class="fa-solid fa-arrow-right ml-[5px] md:mb-[30px]"></i></a>
+              </div>
+            </div>
+            <div class="">
+              <div class="mb-[20px]">
+                <h6 class="text-quartary font-Lato text-[16px] font-bold mb-[27px] uppercase">Latest Works</h6>
+                <div class="flex flex-wrap max-w-[260px] gap-[5px]">
+                  <img src="./img/grand-motel-s.jpg" alt="" />
+                  <img src="./img/screen.jpg"  alt="" />
+                  <img src="./img/record-s.jpg"  alt="" />
+                  <img src="./img/mobile-s.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="mb-[20px]">
+                 <h6 class="text-quartary font-Lato text-[16px] font-bold uppercase mb-[26px]">Get In Touch</h6>
+                 <p class="text-quinary font-sans text-[14px] mb-[26px] max-w-[250px]"> Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis
+                  et consent accullignis dentibea autem inisita.</p>
+                  <a href="" class="text-quinary font-sans text-[14px] block mb-[9px]"><i class="fa-solid fa-location-dot mr-[10px]"></i>84 Street, City, State 24813</a>
+                  <a href="" class="text-quinary font-sans text-[14px] block mb-[9px] "><i class="fa-solid fa-mobile-screen mr-[10px]"></i>+00 (123) 456 78 90</a>
+                  <a href="" class="text-quinary font-sans text-[14px] block"><i class="fa-regular fa-envelope mr-[10px]"></i>info@reen.com</a>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h6 class="text-quartary font-Lato text-[16px] font-bold mb-[26px] uppercase">Free Updates</h6>
+                <p class="text-quinary font-sans text-[14px] max-w-[255px] mb-[22px]">Conecus iure posae volor remped modis aut lor volor accabora
+                  incim resto explabo.</p>
+                  <div class="relative">
+                    <input type="text" placeholder="Enter your email address" class="bg-twelfth p-[9px] border-none rounded-[3px] outline-none w-[281px] placeholder:text-[14px] font-sans text-quinary flex justify-center items-center" />
+                    <button class="bg-senary text-quartary m-[4px] p-[10px] border-b-[2px] border-b-septenary uppercase flex justify-center items-center text-[13px] font-sans font-bold rounded-[4px] absolute top-0 bottom-0 lg:right-0.5  md:right-0 sm:right-0">Subscribe</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-thirteen w-full py-[20px] px-0">
+            <div class="container lg:flex justify-around items-center sm:block">
+              <div>
+                <p class="text-fouthn font-sans text-[14px] sm:text-center mb-[10px]">© 2014 REEN. All rights reserved.</p>
+              </div>
+              <div class="text-fouthn font-sans text-[14px] sm:text-center">
+                <a href="#" class="mr-[10px]">Home</a> <i class="mr-[10px]">·</i> 
+                <a href="#" class="mr-[10px]">Portfolio</a><i class="mr-[10px]">·</i> 
+                <a href="#" class="mr-[10px]">Blog</a> <i class="mr-[10px]">·</i> 
+                <a href="#" class="mr-[10px]">About</a> <i class="mr-[10px]">·</i> 
+                <a href="#"class="mr-[10px]">Services</a> <i class="mr-[10px]">·</i>
+                <a href="#">Contact</a>
+              </div>
+              <div>
+                <a href="#header" class="inline-block py-[11px] px-[15px] bg-fifthn rounded-[3px] fixed bottom-0 right-0 mb-[5px]"><i class="fa-solid fa-chevron-up text-quartary"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     <!-- Footer -->
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/1e3daf6137.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
